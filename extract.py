@@ -45,7 +45,7 @@ class App:
             #         print('sentiment score: ' + keyword['sentiment']['score'])
             #     print('')
         else:
-            print('Error in keyword extaction call: ', keyword_response['statusInfo'])
+            print('Error in keyword extraction call: ', keyword_response['statusInfo'])
 
     def define_concepts(self):
         for concept in self.concepts:
